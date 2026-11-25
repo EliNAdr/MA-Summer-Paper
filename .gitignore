@@ -1,0 +1,10 @@
+# keep API key secure
+.Renviron
+
+# raw data is too large for Github repo - must be acquired and processed locally
+*.csv
+*.rds
+
+# data can be uploaded once merged to Representative-term level
+!final_panel.csv
+!final_panel.rds
